@@ -1,32 +1,63 @@
 {
-  "name": "hexo-lazyload-image",
-  "version": "1.0.12",
-  "description": "a hexo plugin which is used to have all images support lazyload, with the help of this functionality, it will improve lots of the loading proformance.",
-  "main": "index.js",
-  "scripts": {
-    "eslint": "eslint .",
-    "test": "jest"
+  "_args": [
+    [
+      "hexo-lazyload-image@1.0.9",
+      "D:\\Develop\\www\\hexoBlog\\blog"
+    ]
+  ],
+  "_from": "hexo-lazyload-image@1.0.9",
+  "_id": "hexo-lazyload-image@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha1-bb/0lXqWW4sO7TynpK/ZrRzO0BM=",
+  "_location": "/hexo-lazyload-image",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "hexo-lazyload-image@1.0.9",
+    "name": "hexo-lazyload-image",
+    "escapedName": "hexo-lazyload-image",
+    "rawSpec": "1.0.9",
+    "saveSpec": null,
+    "fetchSpec": "1.0.9"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Troy-Yang/hexo-lazyload-image.git"
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/hexo-lazyload-image/download/hexo-lazyload-image-1.0.9.tgz",
+  "_spec": "1.0.9",
+  "_where": "D:\\Develop\\www\\hexoBlog\\blog",
+  "author": {
+    "name": "Troy Yang"
   },
   "bugs": {
     "url": "https://github.com/Troy-Yang/hexo-lazyload-image/issues"
   },
+  "dependencies": {
+    "uglify-js": "^3.0.27"
+  },
+  "description": "a hexo plugin which is used to have all images support lazyload, with the help of this functionality, it will improve lots of the loading proformance.",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "hexo-fs": "^2.0.0",
+    "jest": "^24.9.0"
+  },
+  "homepage": "https://github.com/Troy-Yang/hexo-lazyload-image#readme",
   "keywords": [
     "hexo",
     "hexo plugin",
     "image lazyload"
   ],
-  "author": "Troy Yang",
   "license": "ISC",
-  "dependencies": {
-    "uglify-js": "^3.0.27"
+  "main": "index.js",
+  "name": "hexo-lazyload-image",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Troy-Yang/hexo-lazyload-image.git"
   },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "hexo-fs": "^2.0.0",
-    "jest": "^24.9.0"
-  }
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "jest"
+  },
+  "version": "1.0.9"
 }
